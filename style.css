@@ -1,0 +1,75 @@
+.images img{
+    
+    border: 2px solid black;
+    border-radius: 50px;
+
+    
+}
+
+
+
+.images{
+    flex-wrap: wrap;
+    display : flex;
+    justify-content: space-around;
+}
+
+
+
+.items {
+
+   border: 2px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 100px;
+    width: 310px;
+    font-family: fantasy;
+
+}
+body{
+    background-color: whitesmoke;
+}
+
+.bodyimg {
+    height: 250px;
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/20/19/17/the-black-background-5322097_1280.jpg");
+
+}
+
+.bodyitem {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-size: 20px; 
+    text-align: center;
+    color: white
+}
+
+a:link {
+
+    color:lawngreen
+}
+    
+a:visited {
+    
+    color:mediumblue
+}
+    
+a:hover {
+    
+    color:black
+}
+    
+a:active {
+    
+    color:transparent
+}
+
+.items:hover img{
+
+    opacity: 0.5;
+    transform: scale(1.2)
+}
